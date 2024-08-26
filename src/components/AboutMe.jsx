@@ -4,9 +4,9 @@ import '../styles/about.css';
 const AboutMe = () => {
   return (
     <section className="about-section" id="about">
+      <h2>About me</h2>
       <div className="about-content">
         <div className="about-text">
-          <h2>Hi, I'm Theo!</h2>
           <p><strong>Age:</strong> 24</p>
           <p>
             <strong>Education: </strong> 
@@ -62,7 +62,6 @@ const AboutMe = () => {
             </ul>
           </p>
         </div>
-        <img src="/profile.jpeg" alt="me" className="about-picture" />
       </div>
     </section>
   );

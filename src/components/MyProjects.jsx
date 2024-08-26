@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../styles/projects.css';
+
 
 const MyProjects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -43,7 +45,7 @@ const MyProjects = () => {
         id: 6,
         name: 'Personal Website',
         description: 'A simple website for my portfolio.',
-        githubLink: 'https://github.com/theossalmeida/personal-portfolio',
+        githubLink: 'https://github.com/theossalmeida/portfolio-website',
         technologies: ['JavaScript', 'React', 'Vite', 'HTML', 'CSS'],
       },
   ];
@@ -53,9 +55,9 @@ const MyProjects = () => {
   };
 
   return (
-    <section id="projects">
+    <section className="project-section" id="projects">
       <h2>My Projects</h2>
-      <ul>
+      <ul className="project-content">
         {projects.map((project) => (
           <li key={project.id} onClick={() => handleProjectClick(project.id)} style={{ cursor: 'pointer' }}>
             <strong>{project.name}</strong>

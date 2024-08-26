@@ -1,5 +1,4 @@
-/* src/styles/about.css */
-.about-section {
+.project-section {
     padding: 20px;
     color: #000000;
     max-height: 100vh;
@@ -10,19 +9,19 @@
     grid-template-rows: 1fr 6fr;
   }
 
-.about-section h2 {
+.project-section h2 {
   color: #000000;
   font-size: xx-large;
   flex: 1
 }
 
-.about-content {
+.project-content {
   align-items: center;
   justify-content: center;
   padding: 10px;
   flex: 6;
 }
 
-.about-text li {
+.project-text li {
   margin-bottom: 10px; /* Add space between list items */
 }
