@@ -1,0 +1,41 @@
+/* src/Header.css */
+.header {
+  position: fixed; /* Fix the header at the top of the page */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the header spans the full width of the page */
+  display: flex;
+  justify-content: center; /* Center align the content horizontally */
+  align-items: center;
+  color: rgb(0, 0, 0);
+  z-index: 1000; /* Ensure header is above other content */
+}
+
+.header nav {
+  position: absolute;
+  top: 10px; /* Align nav to the top */
+  right: 50px;
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-left: 30px;
+}
+
+.header nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* Remove underline and effects */
+  font-size: larger;
+}
+
+.header nav ul li a:hover,
+.header nav ul li a:focus {
+  text-decoration: none; /* Ensure no underline on hover/focus */
+  color: #ffffff8a; /* Change color on hover/focus */
+}

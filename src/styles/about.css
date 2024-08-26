@@ -1,0 +1,39 @@
+/* src/styles/about.css */
+.about-section {
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-picture {
+    border-radius: 50%;
+    width: 250px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
+    object-fit: cover;
+    margin-right: 20px; /* Space between image and text */
+    flex: 1;
+  }
+  
+  .about-text {
+    flex: 2;
+  }
+  
+  .about-text h2 {
+    color: #4CAF50; /* Adjust color as needed */
+  }
+  
+  .about-text ul {
+    padding-left: 20px; /* Add space for list items */
+  }
+  
+  .about-text li {
+    margin-bottom: 10px; /* Add space between list items */
+  }
+  
